@@ -1,5 +1,14 @@
 # pdbparse
-Automatically exported from code.google.com/p/pdbparse
+
+## Fork Information
+
+This is a fork of the original pdbparse, indicated by the major version change (1.x -> 2.x.y). Notable changes:
+
+* Project management based on UV
+  * Support for modern versions of Construct, required for latest Python versions 
+* Includes [changes and new structure definitions](https://auscitte.github.io/posts/Func-Prototypes-With-Pdbparse) by Ry Auscitte 
+
+## Original README
 
 PDBparse is a GPL-licensed library for parsing Microsoft PDB files. Support for these is already available within Windows through the Debug Interface Access API, however, this interface is not usable on other operating systems.
 

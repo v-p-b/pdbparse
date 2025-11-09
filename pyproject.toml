@@ -1,0 +1,10 @@
+[project]
+name = "pdbparse"
+version = "2.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "construct>=2.10.70",
+    "pefile>=2024.8.26",
+]
